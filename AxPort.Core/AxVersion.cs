@@ -6,16 +6,10 @@ using System.Threading.Tasks;
 
 namespace AxPort.Core
 {
-    public enum AxObjectType
+    public enum AxVersion
     {
         None = 0,
-        Table,
-        Map,
-        View,
-        Macros,
-        Class,
-        Form,
-        Query,
-        Job
+        Ax2012,
+        Ax365
     }
 }
