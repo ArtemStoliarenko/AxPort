@@ -5,7 +5,7 @@ VisualStudioVersion = 15.0.26730.12
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AxPort", "AxPort\AxPort.csproj", "{B91A6D4A-BC6F-4733-9D4A-58774A67E069}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AxPort.Core", "..\AxPort.Core\AxPort.Core.csproj", "{CB661345-2DAD-440B-BF6A-B83A74491978}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AxPort.Core", "AxPort.Core\AxPort.Core.csproj", "{CB661345-2DAD-440B-BF6A-B83A74491978}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
