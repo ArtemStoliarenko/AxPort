@@ -8,5 +8,14 @@ namespace AxPort.Core
 {
     public enum AxObjectType
     {
+        None = 0,
+        Table,
+        Map,
+        View,
+        Macros,
+        Class,
+        Form,
+        Query,
+        Job
     }
 }
