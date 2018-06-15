@@ -8,6 +8,8 @@ namespace AxPort.Core.Objects
 {
     public abstract class AxObject
     {
+        public string Declaration { get; }
+
         public string ToString(AxVersion axVersion)
         {
             switch (axVersion)

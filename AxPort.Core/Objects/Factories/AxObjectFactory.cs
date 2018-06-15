@@ -20,6 +20,7 @@ namespace AxPort.Core.Objects.Factories
                     throw new ArgumentOutOfRangeException(nameof(axVersion));
             }
         }
+
         public abstract AxObjectType ObjectType { get; }
 
         protected abstract AxObject CreateAxObjectFromAx2012Source(string source);
